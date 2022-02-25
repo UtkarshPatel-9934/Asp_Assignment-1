@@ -7249,24 +7249,26 @@
     ]
   },
   "packageFolders": {
-    "/Users/utkarsh/.nuget/packages/": {}
+    "C:\\Users\\Harsh\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/utkarsh/Downloads/final_completedASof_24/Asp23-main/Asp23-main/UtkarshSandalsStore/UtkarshSandalsStore/UtkarshSandalsStore.csproj",
+      "projectUniqueName": "C:\\Users\\Harsh\\Source\\Repos\\Asp_Assignment-1\\UtkarshSandalsStore\\UtkarshSandalsStore\\UtkarshSandalsStore.csproj",
       "projectName": "UtkarshSandalsStore",
-      "projectPath": "/Users/utkarsh/Downloads/final_completedASof_24/Asp23-main/Asp23-main/UtkarshSandalsStore/UtkarshSandalsStore/UtkarshSandalsStore.csproj",
-      "packagesPath": "/Users/utkarsh/.nuget/packages/",
-      "outputPath": "/Users/utkarsh/Downloads/final_completedASof_24/Asp23-main/Asp23-main/UtkarshSandalsStore/UtkarshSandalsStore/obj/",
+      "projectPath": "C:\\Users\\Harsh\\Source\\Repos\\Asp_Assignment-1\\UtkarshSandalsStore\\UtkarshSandalsStore\\UtkarshSandalsStore.csproj",
+      "packagesPath": "C:\\Users\\Harsh\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Harsh\\Source\\Repos\\Asp_Assignment-1\\UtkarshSandalsStore\\UtkarshSandalsStore\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/utkarsh/.config/NuGet/NuGet.Config"
+        "C:\\Users\\Harsh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -7326,7 +7328,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.102/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
       }
     }
   }
