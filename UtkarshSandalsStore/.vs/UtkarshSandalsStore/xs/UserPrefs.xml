@@ -1,0 +1,62 @@
+﻿<Properties StartupConfiguration="{0512ED86-EBA4-46E4-A4F3-5CF88055BD1D}|Default">
+  <MonoDevelop.Ide.ItemProperties.UtkarshSandalsStore PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="UtkarshSandalsStore/Views/Shared/_Layout.cshtml">
+    <Files>
+      <File FileName="UtkarshSandalsStore/ReadMe.txt" Line="192" Column="1" />
+      <File FileName="UtkarshSandalsStore/Models/Sandal.cs" Line="9" Column="116" />
+      <File FileName="UtkarshSandalsStore/Views/HelloWorld/Index.cshtml" Line="8" Column="29" />
+      <File FileName="UtkarshSandalsStore/Views/Home/AboutUs.cshtml" Line="20" Column="7" />
+      <File FileName="UtkarshSandalsStore/Views/Home/Privacy.cshtml" Line="19" Column="1" />
+      <File FileName="UtkarshSandalsStore/Controllers/HomeController.cs" Line="1" Column="1" />
+      <File FileName="UtkarshSandalsStore/Controllers/SandalsController.cs" Line="1" Column="1" />
+      <File FileName="UtkarshSandalsStore/Models/ErrorViewModel.cs" Line="1" Column="1" />
+      <File FileName="UtkarshSandalsStore/Models/HelloWorldController.cs" Line="1" Column="1" />
+      <File FileName="UtkarshSandalsStore/Models/SandalColourViewModel.cs" Line="8" Column="134" />
+      <File FileName="UtkarshSandalsStore/Models/SeedData.cs" Line="22" Column="71" />
+      <File FileName="UtkarshSandalsStore/Views/HelloWorld/Welcome.cshtml" Line="12" Column="6" />
+      <File FileName="UtkarshSandalsStore/Views/Home/Index.cshtml" Line="26" Column="1" />
+      <File FileName="UtkarshSandalsStore/Views/Shared/_Layout.cshtml" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="UtkarshSandalsStore" expanded="True">
+            <Node name="UtkarshSandalsStore" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="HelloWorld" expanded="True" />
+                <Node name="Home" expanded="True" />
+                <Node name="Sandals" expanded="True" />
+                <Node name="Shared" expanded="True">
+                  <Node name="_Layout.cshtml" selected="True" />
+                </Node>
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True" />
+                <Node name="js" expanded="True" />
+                <Node name="lib" expanded="True">
+                  <Node name="bootstrap" expanded="True">
+                    <Node name="dist" expanded="True">
+                      <Node name="css" expanded="True">
+                        <Node name="bootstrap.css" expanded="True" />
+                      </Node>
+                    </Node>
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

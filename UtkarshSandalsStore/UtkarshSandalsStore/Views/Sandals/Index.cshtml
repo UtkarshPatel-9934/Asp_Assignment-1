@@ -1,0 +1,82 @@
+﻿@model UtkarshSandalsStore.Models.SandalColourViewModel
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<form asp-controller="Sandals" asp-action="Index" method="get">
+    <p>
+        <select asp-for="SandalColour" asp-items="Model.Colour">
+            <option value="">All</option>
+        </select>
+        Company Name: <input type="text" name="SearchString" />
+        <input type="submit" value="Filter" />
+    </p>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Sandals[0].ArtNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Sandals[0].CompanyName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Sandals[0].Colour)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Sandals[0].Material)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Sandals[0].Size)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Sandals[0].Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Sandals[0].Ratings)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Sandals)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ArtNumber)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CompanyName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Colour)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Material)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Size)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Price)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Ratings)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

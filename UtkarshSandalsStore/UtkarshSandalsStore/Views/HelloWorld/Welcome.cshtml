@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "Welcome to Utkarsh Sandal's Store!";
+}
+@*the below code simply display the message based on the query string passed to the url*@
+<h2>Welcome...to the Store!</h2>
+
+<ul>
+    @for (int i = 0; i < (int)ViewData["NumTimes"]; i++)
+    {
+        <li>@ViewData["Message"]</li>
+    }
+</ul>
